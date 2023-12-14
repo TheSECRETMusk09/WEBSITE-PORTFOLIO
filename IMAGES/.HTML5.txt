@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO WEBSITE</title>
+    <link rel = "website icon type = "">
+    <link rel="stylesheet" href="style.1.css">
+    <script src="https://kit.fontawesome.com/e7d1e331ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav ><div>
+            <img src="images/images_christian-removebg-preview.png" class="images_christian-removebg-preview">
+            </div>   
+                    <div>
+                        <ul class ="sidemenu">
+                             <li ><a href= "#header" >Home</a></li>
+                             <li ><a href= "#about" >About</a></li>
+                             <li ><a href= "#services" >Services</a></li>
+                            <li ><a href= "#portfolio" >Portfolio</a></li>
+                             <li ><a href= "#contact" >Contact</a></li>
+                             <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                        </ul>
+                        </div>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+            <div class="header-text">
+                <p>FULLSTACK / DEVELOPER <i class="fa-solid fa-user-secret"></i> <i class="fa-solid fa-code"></i></p>
+               <h1>I'm <span>Christian Samorin</span> Junior Web Developer<br> From Philippines.....</h1>
+                
+        </div>
+    </div>
+</div>
+<!------------------------------about------------------------->  
+<div id="about" class="about">   
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/1x1.png">
+            </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1> 
+                     <br><p><b>Hello!!! I'm Christian A. Samorin, a passionate student from Rizal Technological University pursuing a Bachelor's degree in Information Technology. 
+                        I believe that the world of technology is a canvas of endless possibilities, and I'm here to explore, create, and innovate</b></p><br><h4>
+
+                     <h2>Educational Background: <br></h2>
+                       <b> I am currently a dedicated student at Rizal Technological University, where I'm honing my skills and knowledge in the field of Information Technology. This educational journey has equipped me with a solid foundation in various aspects of IT,
+                           including programming languages and web development.</b></h4><br>
+                    
+                     <br><h2>My Toolbox:</h2>
+                     <h4><p>In my pursuit of excellence, I've delved into several programming languages, such as C++, Python, and Java. 
+                        These languages have not only expanded my problem-solving abilities but also allowed me to bring my ideas to life through coding.
+                        Additionally, I've ventured into the realm of web development, mastering HTML and CSS to craft visually appealing and user-friendly websites. 
+                        My passion for technology doesn't stop there; I'm continuously exploring and learning new tools and technologies to stay at the forefront of 
+                        the ever-evolving IT landscape.</p></h4>    
+                     
+                     <br><h2>Beyond the Classroom:</h2>
+                     <h4>As a college student, I don't limit myself to just textbooks and lectures. I actively seek opportunities to apply my knowledge through personal 
+                        projects, hackathons, and internships. It's not just about what I learn in the classroom; it's about how I can use that knowledge to make a real 
+                        impact in the world.<br>
+                    
+                    </h4><br><h2>My Vision</h2>
+                        <h4>Looking ahead, I envision a future where technology plays a pivotal role in solving some of the world's most pressing challenges. Whether 
+                            it's through innovative software solutions, web applications, or data-driven insights, I aspire to be at the forefront of this technological 
+                            revolution, contributing to a brighter and more connected world.</h4><br
+                        
+                    br><p><b>Feel free to connect with me if you share a passion for technology, programming, or if you'd like to collaborate on exciting projects. Let's 
+                        embark on this journey of exploration and innovation together!</p>
+
+                        <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                        <p class="tab-links" onclick="openTab('hobbies')">Hobbies</p> 
+                     </div> 
+                     <div class="tab-contents active-tab" id="skills"> 
+                        <ul>
+                            <li><span>UI/UX</span><br>&#x2022;Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>&#x2022;Web Development</li>
+                            <li><span>App Development</span><br>&#x2022;Building Android/IOS Apps</li>
+                            <li><span>Database</span><br>&#x2022;Database Administrator</li>
+                            <li><span>Software Developer</span><br>&#x2022;design and develop computer games, business applications, operating systems, network control systems, 
+                                                                            and middlewarr to name just a few of the many career paths available.</li>
+
+
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">  
+                        <ul>
+                            <li><span>2020-2022</span><br>
+                                &#x2022;ICT(Information and Communication Technology)- CSS 1, CSS 2, CSS 3, CSS 4<br>
+                                &#x2022;Software and Hardware computer technichian<br>
+                                &#x2022;Networking<br></li> 
+                            <li><span>2018-2020</span><br>&#x2022;SMAW(Shielded Metal Arc Welding)</li>
+                            <li><span>App Development</span><br>&#x2022;Building Android/IOS Apps</li>
+                            <li><span>MISO</span><br>&#x2022;Management Information System Office</li>
+                            <li><span>RPT</span><br>&#x2022;Real Property Tax</li>
+
+
+                        </ul>
+                    </div>   
+                    <div class="tab-contents" id="education">  
+                        <ul>
+                            <li><span>2022-Present</span><br>&#x2022;Rizal Technological University(BONI CAMPUS)</li>
+                            <li><span>2020-2022</span><br>&#x2022;Sta.Lucia High School(Senior High School)</li>
+                            <li><span>2016-2020</span><br>&#x2022;Sta.Lucia High School(Junior High School)</li>
+                            <li><span>2010-2016</span><br>&#x2022;Napico Elementary School</li>
+                        </ul>
+                    
+                   
+                    </div>
+                    <div class="tab-contents" id="hobbies">  
+                        <ul>
+                            <li><span>Adventure</span><br>&#x2022;Camping<br>•Hiking <br>•hangout with friends</li>
+                            <li><span>Scouting</span><br>&#x2022;Elementary (1st Class) <br>•High School (Venturer)</li>
+                            <li><span>Sports</span><br>&#x2022;Karate (2018-2023) <br>•Brazilian Jiu-jutsu (2018-2023)<br> •Boxing, MMA(2018-2023)
+                                <br>Taekwondo (2015-2022)<br>•Basketball <br>•Chess <br>•Swimming  </li><br>
+                        </ul>
+                    </div>        
+                 </div>        
+            </div>
+     </div>
+</div>
+<br>
+<!----------------services----------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2><br>           
+                <p>My work as a UI/UX Designer at CreativeDigital Solutions has been pivotal in creating digital 
+                    experiences that captivate users, drive engagement, and achieve business objectives. I am passionate 
+                    about creating designs that not only look aesthetically pleasing but also provide meaningful and 
+                    enjoyable interactions for users.</p>
+              <a href="#">Learn more</a>
+            </div>     
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-brands fa-html5"></i>   
+                <i class="fa-brands fa-css3"></i>             
+                <h2>Web Design</h2><br>           
+                <p>As a Web Designer at DigitalWeb Creations, I have played a crucial role in creating visually 
+                    appealing and user-friendly websites that meet our clients' goals and objectives. My work 
+                    encompasses a wide range of responsibilities related to web design and development. </p>
+              <a href="#">Learn more</a>
+            </div>   
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <i class="fa-brands fa-android"></i>
+                <h2>App Design</h2><br>              
+                <p>As an App Designer at MobileTech Innovations, I've been responsible for creating user-centered 
+                  and visually appealing mobile app interfaces. My role has been pivotal in translating user requirements 
+                  and business goals into intuitive and engaging app designs. Here's an overview of my key contributions:</p><br>
+                  <p>User Interface Design<br>
+                    Visual Design<br>
+                    Responsive Design<br>
+                    Usability and Accessibility<br>
+                    Cross-Functional Collaboration<br>
+                    Design Tools and Software</p>
+              <a href="#">Learn more</a>
+            </div>          
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <i class="fa-solid fa-layer-group"></i>                
+                <h2>Database</h2><br>              
+                <p> As a Database Administrator at my past companies, I have played a critical role in ensuring 
+                    the reliability, performance, and security of the company's databases. My responsibilities have 
+                    encompassed a wide range of tasks related to database management and optimization. Here is an overview 
+                    of my key contributions:</p><br>
+                    <p>Database Design and Development<br>
+                    Database Performance Optimization<br>
+                    Backup and Recovery<br>
+                    Security and Access Control<br>
+                    Database Monitoring and Maintenance</p>
+              <a href="#">learn more</a>
+            </div>     
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <i class="fa-solid fa-globe"></i>   
+                <i class="fa-solid fa-ethernet"></i>                             
+                <h2>Networking</h2><br>              
+                <p> In the realm of Information Technology (IT), networking is the backbone of modern connectivity. As a dedicated student 
+                    at Rizal Technological University, I've immersed myself in the world of IT networking. Proficient in network protocols 
+                    and security, I've honed my skills through hands-on experiences, from configuring network devices to collaborating on 
+                    real-world projects.</p><br>
+                    <p>I see the future of networking as the gateway to a more connected and secure world. My passion for innovation and 
+                        commitment to staying at the forefront of this dynamic field drive me to excel. With a solid foundation in IT networking, 
+                        I'm poised to contribute to the evolution of technology, forging resilient, efficient, and secure networks for the digital age.</p>            
+              <a href="#">learn more</a>
+            </div>       
+        </div> 
+    </div>
+</div>
+<!-------------portfolio----------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work11.png">
+               <div class="layer">
+                   <h3>Interview Process</h3>
+                   <p>This is the homepage of application</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div> 
+            </div>
+            <div class="work">
+                <img src="images/work22.png">
+                <div class="layer">
+                    <h3>Interview Questions</h3>
+                    <p>This is the examples questions that provide for new job seeker 
+                        this containts the examples answer on the questions that can 
+                        probably ask to you in your interview</p>
+                     <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                 </div> 
+            </div>
+            <div class="work">
+                <img src="images/work33.png">
+                <div class="layer">
+                    <h3>Interview tips</h3>
+                    <p>This tips can help you in your interview</p>
+                     <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                 </div> 
+            </div>
+            <div class="work">
+                <img src="images/NOTIFF.png">
+                <div class="layer">
+                    <h3>This the example of notification app</h3>
+                    <p>This is the homepage of application</p>
+                     <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                 </div> 
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------Contact----------->
+<div id="contact">
+<div class="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>christiansamorin501@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>(+63)9936997484  |  (+63)9999777092</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-regular fa-envelope"></i></a>
+                </div>
+                <a href="images/resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                     <input type="text" name="Name" placeholder="Your name" required> 
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div> 
+        </div>
+        </div>
+    <div class="copyright">
+        <p>Copyright © 2023 All rights reserved <i class="fa-solid fa-heart"></i>  made by Christian Samorin</p>
+    </div>
+</div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function openTab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
